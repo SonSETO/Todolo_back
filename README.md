@@ -100,13 +100,13 @@ $ npm start
 
 # 5. Tasks & Responsibilities (작업 및 역할 분담)
 
-|        |                                                                     |                                                                                                                      |
-| ------ | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| 이주영 | <img src="README.asset/lee_jooyoung.png" alt="이주영" width="100">  | <ul><li>일정 등록, 수정, 삭제</li><li>팀 리딩 및 커뮤니케이션</li><li>일정/유저 상태관리</li></ul>                   |
-| 조아라 | <img src="README.asset/jo_ara.png" alt="조아라" width="100">        | <ul><li>로그인상태유지(프록시설정)</li><li>캘린더/ 랜딩 / 유저정보수정</li><li>비밀번호 재설정요청/ 재설정</li></ul> |
-| 이서빈 | <img src="README.asset/lee_seobin.png" alt="이서빈" width="100">    | <ul><li>캘린더 모달, 댓글</li><li>유저정보 모달(소속 팀)</li><li>팀 정하기</li></ul>                                 |
-| 김영현 | <img src="README.asset/kim_younghyun.png" alt="김영현" width="100"> | <ul><li>팀</li><li>프로젝트</li><li>업무</li></ul>                                                                   |
-| 손석경 | <img src="README.asset/son_seokkyung.png" alt="손석경" width="100"> | <ul><li>유저</li><li>인증</li><li>업무</li></ul>                                                                     |
+|        |                                                                      |                                                                                                                      |
+| ------ | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| 이주영 | <img src="README.asset/lee_jooyoung.png" alt="이주영" width="100">   | <ul><li>일정 등록, 수정, 삭제</li><li>팀 리딩 및 커뮤니케이션</li><li>일정/유저 상태관리</li></ul>                   |
+| 조아라 | <img src="README.asset/jo_ara.png" alt="조아라" width="100">         | <ul><li>로그인상태유지(프록시설정)</li><li>캘린더/ 랜딩 / 유저정보수정</li><li>비밀번호 재설정요청/ 재설정</li></ul> |
+| 이서빈 | <img src="README.asset/lee_seobin.png" alt="이서빈" width="100">     | <ul><li>캘린더 모달, 댓글</li><li>유저정보 모달(소속 팀)</li><li>팀 정하기</li></ul>                                 |
+| 김영현 | <img src="README.asset/kim_younghyun.png" alt="김영현" width="100">  | <ul><li>팀</li><li>프로젝트</li><li>업무</li></ul>                                                                   |
+| 손석경 | <img src="README.asset/son_seokgyeong.png" alt="손석경" width="100"> | <ul><li>유저</li><li>인증</li><li>업무</li></ul>                                                                     |
 
 <br/>
 <br/>
