@@ -12,11 +12,13 @@ import teamRouter from "./src/models/team/team.router";
 import swaggerJsDoc from "swagger-jsdoc";
 import swaggerUi from "swagger-ui-express";
 import imageRouter from "./src/models/image/image.router";
-import { errorHandler } from "./src/middleware/error.handler.middleware";
+import {
+  AppError,
+  errorHandler,
+} from "./src/middleware/error.handler.middleware";
 
 const app = express();
 const port = process.env.PORT ?? 3000;
-dbConnect();
 
 app.use(cookieParser());
 app.use(express.json());
@@ -57,11 +59,21 @@ app.use("/api/teams", teamRouter);
 app.use("/api/tasks", TaskRouter);
 app.use("/api/projects", ProjectRouter);
 
+app.use((req: Request, res: Response, next: NextFunction) => {
+  throw new AppError(
+    "UNSUPPORTED_API",
+    405,
+    "The requested API is not supported"
+  );
+});
+
 app.use(errorHandler);
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-  console.log(
-    `Swagger 문서는 http://localhost:${port}/api-docs 에서 확인 가능합니다.`
-  );
+dbConnect().then(() => {
+  app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+    console.log(
+      `Swagger 문서는 http://localhost:${port}/api-docs 에서 확인 가능합니다.`
+    );
+  });
 });

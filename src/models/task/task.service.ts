@@ -125,7 +125,7 @@ const TaskService = {
       },
       { new: true }
     );
-
+    //.lean() 모델 쿼리에 사용가능 Document사용 안해도 됨 순수 데이터만 가져올 때(수정할 때 가성비 굿)
     return updatedTask;
   },
 
